@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const instance = axios = axios.create({
-    baseUrl: 'https://api.themoviedb.org/3/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg'
+const instance = axios.create({
+    baseURL: 'https://api.themoviedb.org/3',
 })
 
 export default instance

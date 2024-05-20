@@ -26,6 +26,10 @@
 }
 .row li{
     margin-bottom: 15px;
+
+}
+.row li:hover{
+    color: red;
 }
 .footer-copyright{
     margin-top: 2px;
